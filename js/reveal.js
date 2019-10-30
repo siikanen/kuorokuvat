@@ -5140,9 +5140,11 @@
 			}
 		}
 
+    /*
 		if( isPaused() && resumeKeyCodes.indexOf( keyCode ) === -1 ) {
 			return false;
 		}
+    */
 
 		var triggered = false;
 
