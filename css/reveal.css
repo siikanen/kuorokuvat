@@ -943,7 +943,7 @@ body {
   visibility: hidden;
   opacity: 0;
   z-index: 100;
-  transition: all 1s ease; }
+  transition: all 4s ease; }
 
 .reveal .pause-overlay .resume-button {
   position: absolute;
@@ -1179,10 +1179,13 @@ body {
 
 /* Global transition speed settings */
 .reveal[data-transition-speed="fast"] > .backgrounds .slide-background {
-  transition-duration: 400ms; }
+  transition-duration: 600ms; }
+
+.reveal[data-transition-speed="normal"] > .backgrounds .slide-background {
+    transition-duration: 4200ms; }
 
 .reveal[data-transition-speed="slow"] > .backgrounds .slide-background {
-  transition-duration: 1200ms; }
+  transition-duration: 8600ms; }
 
 /*********************************************
  * OVERVIEW
