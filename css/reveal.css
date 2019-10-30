@@ -509,17 +509,17 @@ body {
 
 /* Global transition speed settings */
 .reveal[data-transition-speed="fast"] .slides section {
-  transition-duration: 400ms; }
+  transition-duration: 1400ms; }
 
 .reveal[data-transition-speed="slow"] .slides section {
-  transition-duration: 1200ms; }
+  transition-duration: 4200ms; }
 
 /* Slide-specific transition speed overrides */
 .reveal .slides section[data-transition-speed="fast"] {
-  transition-duration: 400ms; }
+  transition-duration: 1400ms; }
 
 .reveal .slides section[data-transition-speed="slow"] {
-  transition-duration: 1200ms; }
+  transition-duration: 4200ms; }
 
 .reveal .slides > section.stack {
   padding-top: 0;
